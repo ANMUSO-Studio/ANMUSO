@@ -14,28 +14,10 @@
 		B6D4C4F724BC0FA4005AA4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D4C4F624BC0FA4005AA4A6 /* Assets.xcassets */; };
 		B6D4C4FA24BC0FA4005AA4A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D4C4F924BC0FA4005AA4A6 /* Preview Assets.xcassets */; };
 		B6D4C4FD24BC0FA4005AA4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D4C4FB24BC0FA4005AA4A6 /* LaunchScreen.storyboard */; };
-		B6D4C50824BC0FA4005AA4A6 /* AnmusoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D4C50724BC0FA4005AA4A6 /* AnmusoTests.swift */; };
-		B6D4C51324BC0FA4005AA4A6 /* AnmusoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D4C51224BC0FA4005AA4A6 /* AnmusoUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B6D4C50424BC0FA4005AA4A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6D4C4E224BC0FA2005AA4A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6D4C4E924BC0FA2005AA4A6;
-			remoteInfo = Anmuso;
-		};
-		B6D4C50F24BC0FA4005AA4A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6D4C4E224BC0FA2005AA4A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6D4C4E924BC0FA2005AA4A6;
-			remoteInfo = Anmuso;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		B60226B925C679EA002A52BF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		B6D4C4EA24BC0FA2005AA4A6 /* Anmuso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anmuso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D4C4ED24BC0FA2005AA4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D4C4EF24BC0FA2005AA4A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,30 +27,10 @@
 		B6D4C4F924BC0FA4005AA4A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6D4C4FC24BC0FA4005AA4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D4C4FE24BC0FA4005AA4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D4C50324BC0FA4005AA4A6 /* AnmusoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnmusoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D4C50724BC0FA4005AA4A6 /* AnmusoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnmusoTests.swift; sourceTree = "<group>"; };
-		B6D4C50924BC0FA4005AA4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6D4C50E24BC0FA4005AA4A6 /* AnmusoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnmusoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6D4C51224BC0FA4005AA4A6 /* AnmusoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnmusoUITests.swift; sourceTree = "<group>"; };
-		B6D4C51424BC0FA4005AA4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B6D4C4E724BC0FA2005AA4A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D4C50024BC0FA4005AA4A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D4C50B24BC0FA4005AA4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				B6D4C4EC24BC0FA2005AA4A6 /* Anmuso */,
-				B6D4C50624BC0FA4005AA4A6 /* AnmusoTests */,
-				B6D4C51124BC0FA4005AA4A6 /* AnmusoUITests */,
 				B6D4C4EB24BC0FA2005AA4A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				B6D4C4EA24BC0FA2005AA4A6 /* Anmuso.app */,
-				B6D4C50324BC0FA4005AA4A6 /* AnmusoTests.xctest */,
-				B6D4C50E24BC0FA4005AA4A6 /* AnmusoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,24 +79,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B6D4C50624BC0FA4005AA4A6 /* AnmusoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6D4C50724BC0FA4005AA4A6 /* AnmusoTests.swift */,
-				B6D4C50924BC0FA4005AA4A6 /* Info.plist */,
-			);
-			path = AnmusoTests;
-			sourceTree = "<group>";
-		};
-		B6D4C51124BC0FA4005AA4A6 /* AnmusoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6D4C51224BC0FA4005AA4A6 /* AnmusoUITests.swift */,
-				B6D4C51424BC0FA4005AA4A6 /* Info.plist */,
-			);
-			path = AnmusoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,42 +99,6 @@
 			productReference = B6D4C4EA24BC0FA2005AA4A6 /* Anmuso.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6D4C50224BC0FA4005AA4A6 /* AnmusoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6D4C51A24BC0FA4005AA4A6 /* Build configuration list for PBXNativeTarget "AnmusoTests" */;
-			buildPhases = (
-				B6D4C4FF24BC0FA4005AA4A6 /* Sources */,
-				B6D4C50024BC0FA4005AA4A6 /* Frameworks */,
-				B6D4C50124BC0FA4005AA4A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6D4C50524BC0FA4005AA4A6 /* PBXTargetDependency */,
-			);
-			name = AnmusoTests;
-			productName = AnmusoTests;
-			productReference = B6D4C50324BC0FA4005AA4A6 /* AnmusoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B6D4C50D24BC0FA4005AA4A6 /* AnmusoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6D4C51D24BC0FA4005AA4A6 /* Build configuration list for PBXNativeTarget "AnmusoUITests" */;
-			buildPhases = (
-				B6D4C50A24BC0FA4005AA4A6 /* Sources */,
-				B6D4C50B24BC0FA4005AA4A6 /* Frameworks */,
-				B6D4C50C24BC0FA4005AA4A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6D4C51024BC0FA4005AA4A6 /* PBXTargetDependency */,
-			);
-			name = AnmusoUITests;
-			productName = AnmusoUITests;
-			productReference = B6D4C50E24BC0FA4005AA4A6 /* AnmusoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,19 +106,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Anmuso;
 				TargetAttributes = {
 					B6D4C4E924BC0FA2005AA4A6 = {
 						CreatedOnToolsVersion = 11.5;
-					};
-					B6D4C50224BC0FA4005AA4A6 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = B6D4C4E924BC0FA2005AA4A6;
-					};
-					B6D4C50D24BC0FA4005AA4A6 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = B6D4C4E924BC0FA2005AA4A6;
 					};
 				};
 			};
@@ -225,6 +121,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = B6D4C4E124BC0FA2005AA4A6;
 			productRefGroup = B6D4C4EB24BC0FA2005AA4A6 /* Products */;
@@ -232,8 +129,6 @@
 			projectRoot = "";
 			targets = (
 				B6D4C4E924BC0FA2005AA4A6 /* Anmuso */,
-				B6D4C50224BC0FA4005AA4A6 /* AnmusoTests */,
-				B6D4C50D24BC0FA4005AA4A6 /* AnmusoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,20 +141,6 @@
 				B6D4C4FD24BC0FA4005AA4A6 /* LaunchScreen.storyboard in Resources */,
 				B6D4C4FA24BC0FA4005AA4A6 /* Preview Assets.xcassets in Resources */,
 				B6D4C4F724BC0FA4005AA4A6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D4C50124BC0FA4005AA4A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D4C50C24BC0FA4005AA4A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,42 +158,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D4C4FF24BC0FA4005AA4A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6D4C50824BC0FA4005AA4A6 /* AnmusoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6D4C50A24BC0FA4005AA4A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6D4C51324BC0FA4005AA4A6 /* AnmusoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B6D4C50524BC0FA4005AA4A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6D4C4E924BC0FA2005AA4A6 /* Anmuso */;
-			targetProxy = B6D4C50424BC0FA4005AA4A6 /* PBXContainerItemProxy */;
-		};
-		B6D4C51024BC0FA4005AA4A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6D4C4E924BC0FA2005AA4A6 /* Anmuso */;
-			targetProxy = B6D4C50F24BC0FA4005AA4A6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B6D4C4FB24BC0FA4005AA4A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B6D4C4FC24BC0FA4005AA4A6 /* Base */,
+				B60226B925C679EA002A52BF /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +177,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -346,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -370,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -384,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -406,6 +262,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -424,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -450,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anmuso.Anmuso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,91 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anmuso.Anmuso;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B6D4C51B24BC0FA4005AA4A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9X8CNC5RT;
-				INFOPLIST_FILE = AnmusoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anmuso.AnmusoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anmuso.app/Anmuso";
-			};
-			name = Debug;
-		};
-		B6D4C51C24BC0FA4005AA4A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9X8CNC5RT;
-				INFOPLIST_FILE = AnmusoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anmuso.AnmusoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anmuso.app/Anmuso";
-			};
-			name = Release;
-		};
-		B6D4C51E24BC0FA4005AA4A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9X8CNC5RT;
-				INFOPLIST_FILE = AnmusoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anmuso.AnmusoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Anmuso;
-			};
-			name = Debug;
-		};
-		B6D4C51F24BC0FA4005AA4A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F9X8CNC5RT;
-				INFOPLIST_FILE = AnmusoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anmuso.AnmusoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Anmuso;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -575,24 +348,6 @@
 			buildConfigurations = (
 				B6D4C51824BC0FA4005AA4A6 /* Debug */,
 				B6D4C51924BC0FA4005AA4A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6D4C51A24BC0FA4005AA4A6 /* Build configuration list for PBXNativeTarget "AnmusoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6D4C51B24BC0FA4005AA4A6 /* Debug */,
-				B6D4C51C24BC0FA4005AA4A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6D4C51D24BC0FA4005AA4A6 /* Build configuration list for PBXNativeTarget "AnmusoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6D4C51E24BC0FA4005AA4A6 /* Debug */,
-				B6D4C51F24BC0FA4005AA4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
